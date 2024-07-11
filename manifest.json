@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Thien-Si-Urus",
+    "version": "1.0",
+    "description": "Enter in a word to get its synonyms and antonyms.",
+    "author": "Jonathan Si and Aaron Thien",
+    "action": {
+        "default_title": "Click for synonyms/antonyms",
+        "default_popup": "index.html",
+        "default_icon": "thesaurus.jpg"
+    }
+}

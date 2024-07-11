@@ -1,0 +1,72 @@
+body {
+    font-family: Tahoma;
+    /* background-color: #223f5c; */
+    font-weight: medium;
+    background: linear-gradient(to bottom, #4a6382, #223f5c);
+}
+.inputter {
+    display: flex;
+    justify-content: center;
+}
+#input {
+    border-radius: 10px;
+    /* text-indent: 2px; */
+    height: 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid #fff;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    padding: 10px 20px; /* Optional: Add padding to make the glow more visible */
+    border-radius: 10px; /* Optional: Round the corners */
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), /* white glow */
+                0 0 30px rgba(255, 255, 255, 0.5), /* white glow */
+                0 0 40px rgba(255, 255, 255, 0.5); /* white glow */
+                
+}
+#container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+#synonyms {
+    font-size: 10px;
+    color: #fff;
+    /* margin-top: 50px; */
+    /* margin-right: 10px; */
+}
+ 
+#antonyms {
+    font-size: 10px;
+    color: white;
+    /* margin-top: 50px; */
+    /* margin-left: 10px; */
+    
+}
+
+.words {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    text-indent: 16px;
+    /* justify-content: center; */
+}
+
+input {
+    height: 45px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
